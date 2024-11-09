@@ -15,3 +15,16 @@
 
    ```bash
    go build -o gorunner
+
+3. Move the binary to a directory in your PATH for global usage:
+
+    ```bash
+    mv gorunner /usr/local/bin
+4. Give permission to the binary
+
+    ```bash
+    chmod +x gorunner
+5. Use it to run any go program
+
+   ```bash
+   gorunner <filename.go>
