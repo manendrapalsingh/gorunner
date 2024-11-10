@@ -10,7 +10,20 @@
 
 ## Installation
 
+1. Install it globally by using
+
+    ```bash
+    go install github.com/manendrapalsingh/gorunner@latest
+2. Use it to run any go program
+
+   ```bash
+   gorunner <filename.go>
+
+
+## Build
+
 1. Clone the repository or download the `gorunner` code.
+
 2. Build the binary:
 
    ```bash
